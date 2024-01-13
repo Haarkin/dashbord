@@ -1,0 +1,23 @@
+.status {
+    width: 80px;
+    height: 24px;
+}
+
+.status div {
+    padding: 4px 12px 4px 12px;
+    border-radius: 4px;
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+
+.active div {
+    color: #00B087;
+    border: 1px solid #00B087;
+    background-color: rgba(22, 192, 152, 0.38);
+}
+
+.inactive div {
+    color:#DF0404;
+    border: 1px solid #DF0404;
+    background-color: #FFC5C5;
+}
